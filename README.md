@@ -1,9 +1,9 @@
-# /render — 3D Model Skill for Grok (and Claude Code compatible)
+# /render — 3D Model Skill for Grok 
 
 <img width="702" height="745" alt="Screenshot 2026-04-01 alle 00 15 56" src="https://github.com/user-attachments/assets/d6bca223-2d33-4342-9d16-20a3f593731e" />
 
 
-A Grok skill (also works via Claude Code compatibility layer) that generates 3D models from text descriptions or reference images using [build123d](https://github.com/gumyr/build123d) and renders them in a browser viewer at http://localhost:3123.
+A Grok skill that generates 3D models from text descriptions or reference images using [build123d](https://github.com/gumyr/build123d) and renders them in a browser viewer at http://localhost:3123.
 
 ```
 /render a gear with 12 teeth
@@ -11,7 +11,7 @@ A Grok skill (also works via Claude Code compatibility layer) that generates 3D 
 /render a torus knot
 ```
 
-Grok (or Claude) writes the parametric Python code using build123d, executes it via the skill, and the model appears in your browser within seconds. Open the code panel (</>) to tweak parameters and re-render with Ctrl+Enter.
+Grok writes the parametric Python code using build123d, executes it via the skill, and the model appears in your browser within seconds. Open the code panel (</>) to tweak parameters and re-render with Ctrl+Enter.
 
 ## Install (Grok)
 
